@@ -448,7 +448,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 66353336, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100508424553830606, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
       propertyPath: m_Name
@@ -502,6 +502,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5543355972598448106, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6259215252249475648, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
       propertyPath: SizeModule.enabled
       value: 1
@@ -516,7 +520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7331514416009967212, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -525,6 +529,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 66353336, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 595894534}
+    - targetCorrespondingSourceObject: {fileID: 7331514416009967212, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 563535687}
   m_SourcePrefab: {fileID: 100100000, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
 --- !u!1 &232223323
 GameObject:
@@ -1051,6 +1058,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 899830786}
   m_LocalEulerAnglesHint: {x: 0, y: -163.367, z: 0}
+--- !u!1001 &549698811
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.237
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.198999
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.030001
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9885709
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.15075652
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -17.342
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540842565675349634, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_Name
+      value: Rain_VFXGraph_Prefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
 --- !u!1 &550232225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1220,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 899830786}
   m_LocalEulerAnglesHint: {x: 0, y: 3.366, z: 0}
+--- !u!1 &563535683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7331514416009967212, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
+  m_PrefabInstance: {fileID: 204614982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &563535687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563535683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6df394d05aeeb4a43b1185b7ce99c5d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleKey: 32
+  igniteParticle: {fileID: 1998487953}
+  extinguishParticle: {fileID: 1998487953}
+  pointLight: {fileID: 595894532}
 --- !u!1 &595894532 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 66353336, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
@@ -3335,7 +3420,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -4319,7 +4404,7 @@ ParticleSystem:
       repeatInterval: 0.01
       probability: 1
   SizeModule:
-    enabled: 0
+    enabled: 1
     curve:
       serializedVersion: 2
       minMaxState: 1
@@ -4331,21 +4416,21 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 0
-          outSlope: 1
+          inSlope: 5.2892156
+          outSlope: 5.2892156
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
+          inWeight: 0
+          outWeight: 0.07692307
         - serializedVersion: 3
           time: 1
-          value: 1
-          inSlope: 1
+          value: 0
+          inSlope: 0
           outSlope: 0
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
+          inWeight: 0
+          outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
@@ -8582,3 +8667,4 @@ SceneRoots:
   - {fileID: 7443600419289219571}
   - {fileID: 4314979723789304757}
   - {fileID: 1998487954}
+  - {fileID: 549698811}
